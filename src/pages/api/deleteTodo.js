@@ -12,7 +12,7 @@ async function handler(req, res){
         await mongoose.connect('mongodb+srv://chandubopche:pZnxsAW0O3HUkQBb@cluster0.mbwmgkx.mongodb.net/ToDo?retryWrites=true&w=majority',{
             useNewUrlParser: true,
             useUnifiedTopology: true
-        }).then(()=> console.log(' DB connected'))
+        }).then(()=> console.log(' DB connected, for deleting the task'))
     }catch(error){
         console.log(error)
     }
@@ -20,6 +20,7 @@ async function handler(req, res){
     try{
         const deleteTodo = await Todo.deleteOne({_id:id})
         return res.status(200).end()
+        
     }catch(error){
         console.log(error)
         res.status(500).json({error: "Not deleted"})
