@@ -1,5 +1,9 @@
 {
-  "name": "todo-app",
+<<<<<<< HEAD
+  "name": "todolist",
+=======
+  "name": "crud_nextjs",
+>>>>>>> dc4bedeea670373928714ab56a058d934da865c8
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +13,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.7",
-    "@chakra-ui/react": "^1.8.8",
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "framer-motion": "^6.3.3",
-    "next": "12.1.5",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.3.1"
-  },
-  "devDependencies": {
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5"
+<<<<<<< HEAD
+    "axios": "^1.4.0",
+    "mongodb": "^5.6.0",
+    "next": "13.4.7",
+=======
+    "axios": "^1.3.6",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "mongodb": "^5.8.1",
+    "mongoose": "^7.0.5",
+    "next": "13.3.1",
+>>>>>>> dc4bedeea670373928714ab56a058d934da865c8
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
