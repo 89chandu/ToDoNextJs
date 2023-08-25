@@ -37,7 +37,7 @@ export default async function handler(req, res) {
         console.log("DELETE", id);
     
           const client = await MongoClient.connect(
-            "mongodb+srv://chandubopche:pZnxsAW0O3HUkQBb@cluster0.mbwmgkx.mongodb.net/ToDo?retryWrites=true&w=majority"
+            "mongodb+srv://mkc360:m.c.605551@cluster0.mxwuzmm.mongodb.net/todolist?retryWrites=true&w=majority"
           );
           const db = client.db();
     
